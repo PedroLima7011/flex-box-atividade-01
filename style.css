@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #f8f8f8;
     color: #212427
+
 }
 
 h1 {
@@ -21,9 +22,9 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .filho {
@@ -37,12 +38,14 @@ h1 {
     background-color: #ED145B;
 }
 
-.cor2 {
-    background-color: #63B1BC;
-}
-
 .cor3 {
     background-color: #EFB661;
+    margin-left: 80px; /* tamanho da 1° bolinha */
+}
+
+.cor2 {
+    background-color: #63B1BC;
+    margin-left: 160px; /* tamanho da 1° + 2° bolinha */
 }
 
 .instrucoes {
